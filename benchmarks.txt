@@ -1,0 +1,41 @@
+Note: texts are list of 'A's
+
+1. 
+Using pattern: "ABCDEFGHIJ"
+Text length: 10000
+Algorithm: Naive DFA
+
+Matches found: 0
+Match positions: []
+Time taken: 450.1027 ms
+---------------------------------------------
+Using pattern: "ABCDEFGHIJ"
+Text length: 10000
+Algorithm: KMP
+
+Matches found: 0
+Match positions: []
+Time taken: 21.998 ms
+
+aprox kmp is 20 times faster
+---------------------------------------------
+---------------------------------------------
+2.
+Using pattern: "ABCDEFGHIJKLMNOPQRST"
+Text length: 100000
+Algorithm: Naive DFA
+
+Matches found: 0
+Match positions: []
+Time taken: 25276.3132 ms
+---------------------------------------------
+Using pattern: "ABCDEFGHIJKLMNOPQRST"
+Text length: 100000
+Algorithm: KMP
+
+Matches found: 0
+Match positions: []
+Time taken: 209.6643 ms
+
+kmp is approx 120 times faster
+
